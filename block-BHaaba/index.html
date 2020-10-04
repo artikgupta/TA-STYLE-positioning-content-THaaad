@@ -1,0 +1,91 @@
+<!-- ### Exercise 2
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
+4. Using float is necessary. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container ">
+        <a class="logo" href="#">
+          <img
+            src="https://images.pexels.com/photos/170809/pexels-photo-170809.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="img-1"
+        /></a>
+
+        <nav class="nav">
+          <a href="#">Home</a>
+          <a href="#">Contacts</a>
+          <a href="#">About</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="clearfix">
+        <article>
+          <div class="col">
+            <img
+              class="image-container"
+              src="https://images.pexels.com/photos/757240/pexels-photo-757240.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt=""
+            />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit Lorem
+              ipsum dolor sit amet consectetur, adipisicing elit. Iure, facere
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+              dolore!
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="col">
+            <img
+              class="image-container"
+              src="https://images.pexels.com/photos/3472764/pexels-photo-3472764.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt=""
+            />
+
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor, sit amet consectetur adipisicing elit Lorem ipsum
+              dolor sit amet consectetur, adipisicing elit. Iure, facere Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Quo, dolore!
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="col">
+            <img
+              class="image-container"
+              src="https://images.pexels.com/photos/1707213/pexels-photo-1707213.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt=""
+            />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor, sit amet consectetur adipisicing elit Lorem ipsum
+              dolor sit amet consectetur, adipisicing elit. Iure, facere Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Quo, dolore!
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <nav class="footer-box">
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+      </nav>
+    </footer>
+  </body>
+</html>
