@@ -136,7 +136,7 @@ table {
 }
 
 .logo-nav {
-  background-color: #f2f3fb;
+  background-color: #24245c;
   position: fixed;
   width: 100%;
   left: 0;
@@ -150,7 +150,7 @@ table {
 a {
   padding: 10px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 20px;
 }
 h1 {
@@ -211,7 +211,7 @@ img.gallery-1 {
   height: 300px;
 }
 .footer-box {
-  background-color: #f2f3fb;
+  background-color: #24245c;
   text-align: center;
   padding: 20px;
 }
@@ -230,5 +230,5 @@ img.gallery-1 {
   font-size: 15px;
   position: relative;
   top: 10px;
-  color: wheat;
+  color: white;
 }
