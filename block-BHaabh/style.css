@@ -136,55 +136,172 @@ table {
 .clearfix::after {
   clear: both;
 }
-
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
 .container-1 {
   background-color: #5385c1;
   padding: 40px;
-  height: 200px;
+  height: 300px;
 }
 .logo {
   float: left;
 }
+
+.logo h1 {
+  color: white;
+}
 .nav-container {
   float: right;
+}
+
+.nav-container a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.text {
+  margin: 40px;
+  text-align: center;
 }
 h2 {
   font-size: 40px;
   color: white;
   text-align: center;
-  position: relative;
-  top: 80px;
-  left: 40px;
 }
 
 .para-1 {
-  position: relative;
-  top: 80px;
   color: white;
   text-align: center;
   font-size: 10px;
 }
+
 .container-2 {
   float: left;
-  width: 30.33%;
+  width: 30%;
   margin: 1.5%;
   height: 250px;
 }
+
+.header-txt {
+  font-size: 20px;
+  padding: 10px 0;
+  color: #6d97ca;
+}
+
+.header-para-txt {
+  padding: 20px 0;
+}
+.btn {
+  padding: 8px;
+  width: 60px;
+  background-color: #5385c1;
+  border: none;
+  color: white;
+}
 .container-3 {
   background-color: #5385c1;
-  height: 400px;
+  height: 500px;
 }
+
 .container-4 {
   float: left;
   width: 22%;
   margin: 1.5%;
-
-  border: 1px solid green;
+  border: 1px solid #c3d4e9;
+  height: 300px;
 }
+
 .container-4 img {
   border-radius: 50%;
+  width: 100%;
 }
-.box {
-  border: 1px solid black;
-  padding: 10px;
+
+.img-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.container-4 .img-text {
+  text-align: center;
+}
+
+.h-text {
+  color: white;
+  padding-bottom: 15px;
+}
+
+.p-text {
+  color: white;
+}
+.img-container-txt {
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+
+.para-txt {
+  font-size: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.text-box {
+  width: 47%;
+  float: left;
+  margin: 1.5%;
+}
+
+.text-box img {
+  width: 500px;
+}
+
+.heading {
+  text-align: center;
+  margin: 70px 0;
+}
+
+.txt {
+  font-size: 35px;
+  color: #6d97ca;
+}
+
+.para {
+  color: gray;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.border {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.footer-box {
+  float: left;
+  width: 47%;
+  padding: 20px;
+  margin: 1.5%;
+}
+
+.footer-box a {
+  color: gray;
+  text-decoration: none;
+}
+
+.icons {
+  text-align: right;
+}
+.icons a {
+  font-size: 15px;
+  color: #6d97ca;
+  margin-right: 10px;
 }
